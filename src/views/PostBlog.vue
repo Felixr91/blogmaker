@@ -13,13 +13,13 @@
     <div class="form-group txt-area-lg" @submit.prevent="addTextArea">
 
       <label class="d-flex justify-content-left" for="link">Title</label>
-      <input class="form-control mb-3" type="text" placeholder="Default input" v-model="title">
+      <input class="form-control mb-3" type="text" v-model="title">
 
       <label class="d-flex justify-content-left" for="link">Date</label>
-      <input class="form-control mb-3" type="text" placeholder="Default input" v-model="date">
+      <input class="form-control mb-3" type="text" v-model="date">
 
       <label class="d-flex justify-content-left" for="link">Image Link</label>
-      <input class="form-control mb-3" type="text" placeholder="Default input" v-model="imgLink">
+      <input class="form-control mb-3" type="text" v-model="imgLink">
 
       <label class="d-flex justify-content-left" for="exampleFormControlTextarea1">Write Your Blog Post Here... </label>
 
